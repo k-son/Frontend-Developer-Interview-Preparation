@@ -3,7 +3,7 @@
 > You can click on the link on question to open answer [or] navigate to "Answers" folder
 
 - [x] - [01. What is WHATWG?](Answers/01.what-is-whatwg.md)
-- [x] - [02. What does HTML commenting look like?](Answers/02.what-does-html-commenting-looks-like.md)
+- [] - [02. What does HTML commenting look like?](Answers/02.what-does-html-commenting-looks-like.md)
 - [x] - [03. How do you set language in html?](Answers/03.how-do-you-set-language-in-html.md)
 - [x] - [04. Meta tags in HTML](Answers/04.meta-tags-in-html.md)
 - [x] - [05. What is character encoding in html means?](Answers/05.what-is-char-encoding-in-html.md)
