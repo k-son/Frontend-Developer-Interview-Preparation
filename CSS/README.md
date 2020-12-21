@@ -4,16 +4,17 @@
 
 #### Questions
 
-- [x] 01. What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
+- [] 01. What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
   
   > - Resetting: Remove all the native styles provided by browsers
   > - Normalizing: Make the browser styles consistent [more...](http://nicolasgallagher.com/about-normalize-css/)
 
-- [x] 02. Describe `z-index` and how stacking context is formed.
+- [] 02. Describe `z-index` and how stacking context is formed.
   
+  > The 'z-index' property specifies the stack order of an element. An element with greater stack order is always in front of an element with a lower stack order. 'z-index' only works on positioned elements (position: absolute, position: relative, position: fixed, or position: sticky).
   > `z-index` tells how elements should be stacked in a screen. Stacking context can be formed in several situations, but most famously, by a root element and positioned elements. In each stacking context, `z-index` will be calculated separately for its children and will stack the children in ascending order.
 
-- [x] 03. Can you tell me some latest css features
+- [] 03. Can you tell me some latest css features
   
   > Grid, Variables, Flexbox 
 
@@ -25,23 +26,23 @@
   
   > using `display: flex`, using `height: auto` & `overflow:hidden`, using clearfix method
 
-- [x] 06. `display:none` vs `visibility:hidden`
+- [] 06. `display:none` vs `visibility:hidden`
   
   > - `display:none` means that the element will not appear on the page at all (although you can still interact with it through the dom). There will be no space allocated for it between other tags.
   > - `visibility:hidden` means that unlike `display:none`, the element is not visible, but space is allocated for it on the page. The element is rendered, it just isn't seen on the page.
 
-- [x] 07. Describe `inline`, `inline-block`, and `block` display elements
+- [] 07. Describe `inline`, `inline-block`, and `block` display elements
   
   > - Inline Elements: don’t start on a new line, they appear on the same line as the content and tags beside them. Some examples of inline elements are `<span>` , `<strong>`, and `<img>` tags.
   > - Inline-block Elements: are similar to inline elements, except they can have padding and margins added on all four sides. You’ll have to declare `display: inline-block` in your CSS code.
   > - Block Elements: always starts on a new line, and fills up the horizontal space left and right on the web page. You can add margins and padding on all four sides of any block element — top, right, left, and bottom. Some examples of block elements are `<div>` and `<p>` tags
 
-- [x] 08. Explain CSS sprites, and how you would implement them on a page or site.
+- [] 08. Explain CSS sprites, and how you would implement them on a page or site.
   
   > - CSS sprite is combining multiple images into a merged one image and use CSS to render each of them properly for each element. It's usually implemented using `background: url(...) x-axis y-axis;`, or both `background-image` and `background-position`. This technique saves on multiple HTTP requests but can be a pain to compile, as any changes to the sprite image will need to have the CSS updated with any new positions.
   > - With HTTP2 though, having multiple images loaded is no longer much of an issue.
 
-- [x] 09. What is the difference between classes and IDs in CSS?
+- [] 09. What is the difference between classes and IDs in CSS?
   
   > - ids are unique: Each element can have only one id, Each page can have only one element with that id
   > - classes are NOT unique: You can use the same class on multiple elements, You can use multiple classes on the same element.

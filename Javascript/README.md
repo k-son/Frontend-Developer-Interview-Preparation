@@ -2,9 +2,9 @@
 
 > You can click on the link on question to open answer [or] navigate to "Answers" folder
 
-- [x] - [01. Global, Local Variables](Answers/01.global-local-variables.js)
+- [] - [01. Global, Local Variables](Answers/01.global-local-variables.js)
 - [x] - [02. Associative Array](Answers/02.associative-array.js)
-- [x] - [03. Hoisting](Answers/03.hoisting.js)
+- [] - [03. Hoisting](Answers/03.hoisting.js)
 - [x] - [04. Closure](Answers/04.closure.js)
 - [x] - [05. Bind](Answers/05.bind.js)
 - [x] - [06. Scope and Execution Context in JS](Answers/06.scope.js)

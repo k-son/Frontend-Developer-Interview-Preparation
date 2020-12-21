@@ -1,5 +1,19 @@
 /*
 	# Hoisting - All the variable declarations happens at the the top. Same goes for function declaration as well.
+
+	Hoisting is JavaScript's default behavior of moving all declarations to the top of the current scope (to the top of the current script or the current function).
+	Variables defined with let and const are hoisted to the top of the block, but not initialized.Meaning: The block of code is aware of the variable, but it cannot be used until it has been declared.
+
+	Using a let or const variable before it is declared will result in a ReferenceError. The variable is in a "temporal dead zone" from the start of the block until it is declared.
+
+	JavaScript only hoists declarations, not initializations.
+
+	To avoid bugs, always declare all variables at the beginning of every scope.
+
+	JavaScript in strict mode does not allow variables to be used if they are not declared.
+
+
+	Function declarations are hoisted.
 	
 	## Reference 
 	1. https://code.tutsplus.com/tutorials/javascript-hoisting-explained--net-15092
